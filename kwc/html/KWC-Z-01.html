@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KWC-Z-01</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px;
+      background-color: #f2f2f2;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    .contentText {
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 20px;
+      line-height: 30px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      padding: 40px;
+      background-color: #f2f2f2;
+      text-align: center;
+      /* 让 footer 这个元素在页面中的底部显示 */
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+
+    .boxArea {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .contentText {
+      flex: 1;
+    }
+
+    /* .box {
+      display: flex;
+      flex-direction: column;
+      background-color: #f2f2f2;
+      flex: 1;
+      height: 100px;
+      border-radius: 20px;
+      padding: 20px;
+    }
+
+    .boxTop {
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .boxTop p {
+      text-align: center;
+    }
+
+    .boxBottom {
+      align-items: center;
+    }
+
+    .boxBottom p {
+      text-align: center;
+      font-weight: bold;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- 顶部栏 - 标题 -->
+  <div class="header">
+    <h1>KWC-Z-01</h1>
+  </div>
+
+  <!-- 内容区域 - 个人介绍 -->
+  <div class="content">
+
+    <!-- 课题介绍 & 完成时间 -->
+    <div class="contentText">
+      <p class="title" style="margin-top: 0px;">编程的本质</p>
+      <p>完成时间：2026年7月13日 中午</p>
+    </div>
+
+    <!-- 组件区域 -->
+    <div class="boxArea">
+      <div class="contentText">
+        <p><b>输入：</b>想吃馒头的念头（一个念头）</p>
+        <p><b>处理：</b>去拿一个馒头，开始进行食用，直到馒头被吃完</p>
+        <p><b>输出：</b>馒头被吃到肚子里（玩成吃馒头的事件）</p>
+      </div>
+    </div>
+
+    <!-- 组件区域1
+    <div class="boxArea">
+      <div class="box">
+        <div class="boxTop">
+          <p>馒头</p>
+        </div>
+        <div class="boxBottom">
+          <p>参数</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxTop">
+          <p>吃馒头，直到馒头被吃完</p>
+        </div>
+        <div class="boxBottom">
+          <p>处理</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxTop">
+          <p>馒头全部吃到肚子里</p>
+        </div>
+        <div class="boxBottom">
+          <p>输出</p>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <!-- 底部栏 - 联系信息 -->
+  <div class="footer">
+    <p>学习者：一只晓路</p>
+  </div>
+
+</body>
+
+</html>
